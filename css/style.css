@@ -1,0 +1,436 @@
+.page-body {
+
+}
+
+.page-header {
+
+}
+
+.page-header__logo {
+
+}
+
+.page-header__site-nav {
+
+}
+
+.page-header__site-nav_closed {
+
+}
+
+.page-header__site-nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-header__site-nav-item {
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #303032;
+}
+
+.page-header__site-nav-a {
+  text-decoration: none;
+}
+
+.page-header__site-nav-button {
+
+}
+
+.page-header__user-nav {
+
+}
+
+.page-header__user-nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-header__user-nav-item {
+
+}
+
+.page-header__user-nav-a {
+  text-decoration: none;
+}
+
+.page-header__user-nav-item-alt {
+  /*visually hidden*/
+}
+
+.page-main {
+
+}
+
+.page-main__page-name {
+  /*visually hidden*/
+}
+
+.page-main__products {
+
+}
+
+.page-main__product-slider {
+
+}
+
+.page-main__product-slide {
+
+}
+
+.page-main__product-type {
+  /*font-family: Playfair Display;*/
+  font-style: normal;
+  font-weight: bold;
+  font-size: 57px;
+  line-height: 145%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #303032;
+}
+
+.page-main__product-name {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #303032;
+}
+
+.page-main__product-price {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #303032;
+
+}
+
+.page-main__product-price-sale {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+  /* identical to box height */
+  color: #303032;
+}
+
+.page-main__product-button {
+
+}
+
+.page-main__product-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-main__product-slider-pagination {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-main__product-slide-number {
+
+}
+
+.page-main__product-slide-a {
+  text-decoration: none;
+}
+
+.page-main__new {
+
+}
+
+.page-main__new-title {
+  /*font-family: Playfair Display;*/
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  letter-spacing: 0.05em;
+  color: #303032;
+}
+
+.page-main__new-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-main__new-item {
+
+}
+
+.page-main__new-item-second {
+
+}
+
+.page-main__new-item-last {
+
+}
+
+.page-main__new-item-a {
+  text-decoration: none;
+}
+
+.page-main__new-product {
+
+}
+
+.page-main__new-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-main__new-product-name {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #303032;
+}
+
+.page-main__new-product-price {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  /* identical to box height */
+  color: #303032;
+}
+
+.page-main__review {
+
+}
+
+.page-main__review-slider-title {
+  /*visually hidden*/
+}
+
+.page-main__review-slider {
+
+}
+
+.page-main__review-slide {
+
+}
+
+.page-main__review-image {
+
+}
+
+.page-main__review-author {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27,78px;
+  text-align: center;
+  color: #444348;
+}
+
+.page-main__review-author-status {
+  /*font-family: Avenir Next;*/
+  font-size: 16px;
+  line-height: 24,7px;
+}
+
+.page-main__review-quote {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 24.7px;
+  text-align: center;
+  color: #444348;
+}
+
+.page-main__review-slider-pagination {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-main__review-slide-number {
+
+}
+
+.page-main__review-number-a {
+  text-decoration: none;
+}
+
+.page-main__review-button-next {
+
+}
+
+.page-main__review-button-prev {
+
+}
+
+.page-main__sale {
+
+}
+
+.page-main__sale-title {
+  /*font-family: Playfair Display;*/
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37.32px;
+  letter-spacing: 0.05em;
+  color: #303032;
+  text-transform: uppercase;
+}
+
+.page-main__sale-tabs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-main__sale-tab {
+
+}
+
+.page-main__sale-tab_active {
+   text-decoration: underline;
+}
+
+.page-main__sale-tab-a {
+  text-decoration: none;
+}
+
+.page-main__sale-tabs-contents {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-main_sale-tab-content {
+
+}
+
+.page-main_sale-tab-content_active {
+
+}
+
+.page-main_sale-content-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-main_sale-content-li {
+
+}
+
+.page-main_sale-content-product {
+
+}
+
+.page-main__sale-product-name {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.page-main__sale-product-price {
+  
+}
+
+.page-main__sale-price-new {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  color: #303032;
+}
+
+.page-main__sale-price-old {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration-line: line-through;
+  color: #979798;
+}
+
+.page-main__sale-product-button {
+
+}
+
+.page-main__sale-product-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-footer {
+
+}
+
+.page-footer__logo {
+
+}
+
+.page-footer__nav {
+
+}
+
+.page-footer__nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;;
+}
+
+.page-footer__nav-item {
+  /*font-family: Roboto;*/
+  font-size: 16px;
+  line-height: 19px;
+  color: #303032;
+}
+
+.page-footer__nav-item-a {
+  text-decoration: none;
+}
+
+.page-footer__address {
+  /*font-family: "Roboto";*/
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+color: #303032;
+}
+
+.page-footer__tel {
+
+}
+
+.page-footer__tel-a {
+  text-decoration: none;
+}
+
+.page-footer__mail {
+
+}
+
+.page-footer__mail-a {
+  text-decoration: none;
+}
+
+.page-footer__copyright {
+  /*font-family: Avenir Next;*/
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.2;
+}
+
