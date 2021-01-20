@@ -12,9 +12,7 @@
 
   <body class="page-body">
     <header class="page-header">
-      <div class="page-header__logo">
-        Логотип Callium
-      </div>
+      <img class="page-header__logo" src="img/logo.svg" alt="Логотип Callium">
       <nav class="page-header__site-nav page-header__site-nav_closed">
         <ul class="page-header__site-nav-list">
           <li class="page-header__site-nav-item"><a class= "page-header__site-nav-a" href="#">Мебель</a></li>
@@ -42,7 +40,7 @@
             <h3 class="page-main__product-name">Кресло "Антиква"</h3>
             <p><span class="page-main__product-price">$380</span><span class="page-main__product-price-sale">$240</span></p>
             <button class="page-main__product-button" type="button">Купить</button>
-            <img class="page-main__product-img" alt="Кресло Антиква">
+            <img class="page-main__product-img" src="img/main-chair-desktop.jpg" alt="Кресло Антиква">
           </article>
   
           <article class="page-main__product-slide" id="page-main__product-slide-2">
@@ -50,7 +48,7 @@
             <h3 class="page-main__product-name">Кресло "Антиква"</h3>
             <p><span class="page-main__product-price">$380</span><span class="page-main__product-price-sale">$240</span></p>
             <button class="page-main__product-button" type="button">Купить</button>
-            <img class="page-main__product-img" alt="Кресло Антиква">
+            <img class="page-main__product-img" src="img/main-chair-desktop.jpg" alt="Кресло Антиква">
           </article>
   
           <article class="page-main__product-slide" id="page-main__product-slide-3">
@@ -58,7 +56,7 @@
             <h3 class="page-main__product-name">Кресло "Антиква"</h3>
             <p><span class="page-main__product-price">$380</span><span class="page-main__product-price-sale">$240</span></p>
             <button class="page-main__product-button" type="button">Купить</button>
-            <img class="page-main__product-img" alt="Кресло Антиква">
+            <img class="page-main__product-img" src="img/main-chair-desktop.jpg" alt="Кресло Антиква">
           </article>
   
           <article class="page-main__product-slide" id="page-main__product-slide-4">
@@ -66,7 +64,7 @@
             <h3 class="page-main__product-name">Кресло "Антиква"</h3>
             <p><span class="page-main__product-price">$380</span><span class="page-main__product-price-sale">$240</span></p>
             <button class="page-main__product-button" type="button">Купить</button>
-            <img class="page-main__product-img" alt="Кресло Антиква">
+            <img class="page-main__product-img" src="img/main-chair-desktop.jpg" alt="Кресло Антиква">
           </article>
         </div>
         
@@ -86,7 +84,9 @@
           <li class="page-main__new-item">
             <a class="page-main__new-item-a" href="#">
               <article class="page-main__new-product">
-                <img class="page-main__new-img" alt="Стул Смеркается">
+                <div class="page-main__new-wrap-img">
+                  <img class="page-main__new-img" src="img/chair-twilight-desktop.jpg" alt="Стул Смеркается">
+                </div>
                 <h3 class="page-main__new-product-name">Стул "Смеркается"</h3>
                 <p class="page-main__new-product-price">$280</p>
               </article>
@@ -96,7 +96,9 @@
           <li class="page-main__new-item page-main__new-item-second">
             <a class="page-main__new-item-a" href="#">
               <article class="page-main__new-product">
-                <img class="page-main__new-img" alt="Стол Крем брюле">
+                <div class="page-main__new-wrap-img">
+                  <img class="page-main__new-img" src="img/table-cream-desktop.jpg" alt="Стол Крем брюле">
+                </div>
                 <h3 class="page-main__new-product-name">Стол "Крем брюле"</h3>
                 <p class="page-main__new-product-price">$320</p>
               </article>
@@ -106,7 +108,9 @@
           <li class="page-main__new-item">
             <a class="page-main__new-item-a" href="#">
               <article class="page-main__new-product">
-                <img class="page-main__new-img" alt="Люстра Облако">
+                <div class="page-main__new-wrap-img">
+                  <img class="page-main__new-img" src="img/chandelier-cloud-desktop.jpg" alt="Люстра Облако">
+                </div>
                 <h3 class="page-main__new-product-name">Люстра Облако</h3>
                 <p class="page-main__new-product-price">$250</p>
               </article>
@@ -116,7 +120,9 @@
           <li class="page-main__new-item page-main__new-item-last">
             <a class="page-main__new-item-a" href="#">
               <article class="page-main__new-product">
-                <img class="page-main__new-img" alt="Стул офисный Белый шоколад">
+                <div class="page-main__new-wrap-img">
+                  <img class="page-main__new-img" src="img/chair-white-desktop.jpg" alt="Стул офисный Белый шоколад">
+                </div>
                 <h3 class="page-main__new-product-name">Стул офисный "Белый шоколад"</h3>
                 <p class="page-main__new-product-price">$120</p>
               </article>
@@ -131,8 +137,8 @@
         <div class="page-main__review-slider">
 
           <article class="page-main__review-slide" id="page-main__review-slide-1">
-            <div class="page-main__review-image">
-              Аватар автора отзыва
+            <div class="page-main__review-wrap-image">
+              <img class="page-main__review-image" src="img/avatar.jpg" alt="Аватар автора отзыва">
             </div>
             <cite class="page-main__review-author">Елена Новикова<span class="page-main__review-author-status">студентка</span></cite>
             <blockquote class="page-main__review-quote">«Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», заказывала в конце 2016 года. 
@@ -140,8 +146,8 @@
           </article>
   
           <article class="page-main__review-slide" id="page-main__review-slide-2">
-            <div class="page-main__review-image">
-              Аватар автора отзыва
+            <div class="page-main__review-wrap-image">
+              <img class="page-main__review-image" src="img/avatar.jpg" alt="Аватар автора отзыва">
             </div>
             <cite class="page-main__review-author">Елена Новикова<span class="page-main__review-author-status">студентка</span></cite>
             <blockquote class="page-main__review-quote">«Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», заказывала в конце 2016 года. 
@@ -149,8 +155,8 @@
           </article>
   
           <article class="page-main__review-slide" id="page-main__review-slide-3">
-            <div class="page-main__review-image">
-              Аватар автора отзыва
+            <div class="page-main__review-wrap-image">
+              <img class="page-main__review-image" src="img/avatar.jpg" alt="Аватар автора отзыва">
             </div>
             <cite class="page-main__review-author">Елена Новикова<span class="page-main__review-author-status">студентка</span></cite>
             <blockquote class="page-main__review-quote">«Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», заказывала в конце 2016 года. 
@@ -158,8 +164,8 @@
           </article>
   
           <article class="page-main__review-slide" id="page-main__review-slide-4">
-            <div class="page-main__review-image">
-              Аватар автора отзыва
+            <div class="page-main__review-wrap-image">
+              <img class="page-main__review-image" src="img/avatar.jpg" alt="Аватар автора отзыва">
             </div>
             <cite class="page-main__review-author">Елена Новикова<span class="page-main__review-author-status">студентка</span></cite>
             <blockquote class="page-main__review-quote">«Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», заказывала в конце 2016 года. 
@@ -196,7 +202,9 @@
                   <h3 class="page-main__sale-product-name">Стул "Карамель"</h3>
                   <p class="page-main__sale-product-price"><span class="page-main__sale-price-new">$195</span><span class="page-main__sale-price-old">$245</span></p>
                   <button class="page-main__sale-product-button" type="button">Купить</button>
-                  <img class="page-main__sale-product-img" alt="Стул Карамель">
+                  <div class="page-main__sale-wrap-img">
+                    <img class="page-main__sale-product-img" src="img/chair-caramel-desktop.jpg" alt="Стул Карамель">
+                  </div>
                 </article>
               </li>
 
@@ -211,7 +219,9 @@
                   <h3 class="page-main__sale-product-name">Стул "Облако"</h3>
                   <p class="page-main__sale-product-price"><span class="page-main__sale-price-new">$200</span><span class="page-main__sale-price-old">$250</span></p>
                   <button class="page-main__sale-product-button" type="button">Купить</button>
-                  <img class="page-main__sale-product-img" alt="Стул Облако">
+                  <div class="page-main__sale-wrap-img">
+                    <img class="page-main__sale-product-img" src="img/chair-cloud-desktop.jpg" alt="Стул Облако">
+                  </div>
                 </article>
               </li>
 
@@ -226,7 +236,9 @@
                   <h3 class="page-main__sale-product-name">Стул "Сова"</h3>
                   <p class="page-main__sale-product-price"><span class="page-main__sale-price-new">$240</span><span class="page-main__sale-price-old">$260</span></p>
                   <button class="page-main__sale-product-button" type="button">Купить</button>
-                  <img class="page-main__sale-product-img" alt="Стул Сова">
+                  <div class="page-main__sale-wrap-img">
+                    <img class="page-main__sale-product-img" src="img/chair-owl-desktop.jpg" alt="Стул Сова">
+                  </div>
                 </article>
               </li>
 
@@ -241,7 +253,9 @@
                   <h3 class="page-main__sale-product-name">Стул "Мая"</h3>
                   <p class="page-main__sale-product-price"><span class="page-main__sale-price-new">$280</span><span class="page-main__sale-price-old">$330</span></p>
                   <button class="page-main__sale-product-button" type="button">Купить</button>
-                  <img class="page-main__sale-product-img" alt="Стул Мая">
+                  <div class="page-main__sale-wrap-img">
+                    <img class="page-main__sale-product-img" src="img/chair-maya-desktop.jpg" alt="Стул Мая">
+                  </div>
                 </article>
               </li>
 
@@ -256,7 +270,9 @@
                   <h3 class="page-main__sale-product-name">Стул "Месси"</h3>
                   <p class="page-main__sale-product-price"><span class="page-main__sale-price-new">$280</span><span class="page-main__sale-price-old">$305</span></p>
                   <button class="page-main__sale-product-button" type="button">Купить</button>
-                  <img class="page-main__sale-product-img" alt="Стул Месси">
+                  <div class="page-main__sale-wrap-img">
+                    <img class="page-main__sale-product-img" src="img/chair-messy-desktop.jpg" alt="Стул Месси">
+                  </div>
                 </article>
               </li>
 
@@ -268,9 +284,7 @@
     </main>
     
     <footer class="page-footer">
-      <div class="page-footer__logo">
-        Логотип Callium
-      </div>
+      <img class="page-footer__logo" src="img/logo.svg" alt="Логотип Callium">
       <nav class="page-footer__nav">
         <ul class="page-footer__nav-list">
           <li class="page-footer__nav-item"><a class="page-footer__nav-item-a" href="#"></a>Доставка</li>
