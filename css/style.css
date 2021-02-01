@@ -107,6 +107,13 @@
   -webkit-overflow-scrolling: touch;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
+  scrollbar-color: transparent transparent; /* for firefox*/
+  scrollbar-width: 0px;
+}
+
+.page-main__product-slider::-webkit-scrollbar { /*for other browsers*/
+  width: 0;               
+  background: transparent;
 }
 
 .page-main__product-slide {
