@@ -401,6 +401,7 @@
 
 .page-main__sale {
   display: flex;
+  flex-direction: column;
   padding-top: 73px;
   padding-left: 20px;
   padding-right: 20px;
@@ -420,6 +421,7 @@
 }
 
 .page-main__sale-tabs {
+  display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -452,6 +454,7 @@
 }
 
 .page-main_sale-content-list {
+  display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -508,6 +511,8 @@
 
 .page-footer {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding-top: 101px;
   padding-left: 20px;
   padding-right: 20px;
@@ -525,6 +530,8 @@
 }
 
 .page-footer__nav-list {
+  display: flex;
+  flex-grow: 1;
   margin: 0;
   padding: 0;
   list-style: none;;
@@ -542,13 +549,15 @@
 }
 
 .page-footer__address {
+  display: flex;
   /*font-family: "Roboto";*/
+  width: 100%;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
 
-color: #303032;
+  color: #303032;
 }
 
 .page-footer__tel {
