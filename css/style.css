@@ -1,3 +1,85 @@
+/* open-sans-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v18-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/open-sans-v18-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v18-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v18-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v18-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v18-latin_cyrillic-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-600 - latin_cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/open-sans-v18-latin_cyrillic-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/open-sans-v18-latin_cyrillic-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v18-latin_cyrillic-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v18-latin_cyrillic-600.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v18-latin_cyrillic-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v18-latin_cyrillic-600.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/open-sans-v18-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/open-sans-v18-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v18-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v18-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v18-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v18-latin_cyrillic-700.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+/* playfair-display-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/playfair-display-v22-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/playfair-display-v22-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/playfair-display-v22-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/playfair-display-v22-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/playfair-display-v22-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/playfair-display-v22-latin_cyrillic-regular.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
+}
+/* playfair-display-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/playfair-display-v22-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/playfair-display-v22-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/playfair-display-v22-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/playfair-display-v22-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/playfair-display-v22-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/playfair-display-v22-latin_cyrillic-700.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
+}
+
+/* roboto-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v20-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/roboto-v20-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v20-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v20-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v20-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v20-latin_cyrillic-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+
 .page-body {
   display: flex;
   flex-direction: column;
@@ -40,7 +122,7 @@
 
 .page-header__site-nav-item {
   width: 33.3%;
-  font-family: Open Sans;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 19px;
   letter-spacing: 0.13em;
@@ -130,7 +212,7 @@
 }
 
 .page-main__product-type {
-  /*font-family: Playfair Display;*/
+  font-family: "Playfair Display", "Georgia", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 57px;
@@ -196,7 +278,7 @@
 }
 
 .page-main__product-slide-a {
-  /*font-family: Playfair Display;*/
+  font-family: "Playfair Display", "Georgia", serif;
   text-decoration: none;
   font-size: 20px;
   line-height: 29px;
@@ -244,7 +326,7 @@
 }
 
 .page-main__new-list-title {
-  /*font-family: Playfair Display;*/
+  font-family: "Playfair Display", "Georgia", serif;
   display: block;
   font-weight: bold;
   font-size: 28px;
@@ -373,7 +455,7 @@
 }
 
 .page-main__review-author-status {
-  /*font-family: Avenir Next;*/
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 16px;
   line-height: 24,7px;
 }
@@ -411,7 +493,7 @@
 }
 
 .page-main__sale-title {
-  /*font-family: Playfair Display;*/
+  font-family: "Playfair Display", "Georgia", serif;
   font-weight: bold;
   font-size: 28px;
   line-height: 37.32px;
@@ -542,7 +624,7 @@
 }
 
 .page-footer__nav-item {
-  /*font-family: Roboto;*/
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   line-height: 19px;
   color: #303032;
@@ -554,7 +636,7 @@
 
 .page-footer__address {
   display: flex;
-  /*font-family: "Roboto";*/
+  font-family: "Roboto", "Arial", sans-serif;
   width: 100%;
   font-style: normal;
   font-weight: normal;
@@ -581,7 +663,7 @@
 }
 
 .page-footer__copyright {
-  /*font-family: Avenir Next;*/
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 10px;
   line-height: 15px;
   text-align: center;
