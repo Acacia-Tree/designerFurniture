@@ -445,27 +445,31 @@
   list-style: none;
 }
 
-.page-main_sale-tab-content {
+.page-main__sale-tab-content {
 
 }
 
-.page-main_sale-tab-content_active {
+.page-main__sale-tab-content_active {
 
 }
 
-.page-main_sale-content-list {
+.page-main__sale-content-list {
   display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.page-main_sale-content-li {
+.page-main__sale-content-li {
 
 }
 
-.page-main_sale-content-product {
+.page-main__sale-content-product {
 
+}
+
+.page-main__sale-product-link {
+  text-decoration: none;
 }
 
 .page-main__sale-product-name {
