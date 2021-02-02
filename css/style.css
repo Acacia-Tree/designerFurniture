@@ -3,6 +3,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('../fonts/open-sans-v18-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('../fonts/open-sans-v18-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -16,6 +17,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
+  font-display: swap;
   src: url('../fonts/open-sans-v18-latin_cyrillic-600.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('../fonts/open-sans-v18-latin_cyrillic-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -29,6 +31,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url('../fonts/open-sans-v18-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('../fonts/open-sans-v18-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -43,6 +46,7 @@
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('../fonts/playfair-display-v22-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('../fonts/playfair-display-v22-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -56,6 +60,7 @@
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url('../fonts/playfair-display-v22-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('../fonts/playfair-display-v22-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -70,6 +75,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('../fonts/roboto-v20-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('../fonts/roboto-v20-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
