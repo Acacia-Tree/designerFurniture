@@ -273,7 +273,7 @@
   flex-direction: column;
   align-self: flex-start;
   min-height: 628px;
-  width: 50%;
+  width: 47%;
   /*min-width: 566px;*/
 }
 
@@ -343,7 +343,7 @@
 .page-main__product-img-wrapper {
   margin-right: 6.45%;
   max-width: 532px;
-  width: 50%;
+  width: 53%;
   max-height: 628px;
 }
 
@@ -352,39 +352,35 @@
   height: auto;
   margin-top: -108px;
   overflow: hidden;
-
-  
 }
 
 .page-main__product-slider-pagination {
   height: 205px;
-  width: 61px;
+  width: 41px;
   display: flex;
   flex-shrink: 1;
   flex-direction: column;
   margin: 0;
   padding: 0;
+  margin-right: 64px;
+  margin-bottom: 60px;
   list-style: none;
   align-self: center;
-  margin-right: 64px;
-  
-
 }
 
 .page-main__product-slide-number {
   display: flex;
   margin: 0;
   padding: 0;
-  justify-content: flex-start;
+  margin-top: 20px;
+  justify-content: flex-end;
   align-items: flex-end;
 }
 
 .page-main__product-slide-a {
-  width: 41px;
+  width: 23px;
+  height: 29px;
   text-align: right;
-  margin-top: 20px;
-  
-
   font-family: "Playfair Display", "Georgia", serif;
   text-decoration: none;
   font-size: 20px;
@@ -396,11 +392,20 @@
 }
 
 .page-main__product-a-active{
-  padding-right: 20px;
+  width: 41px;
+  height: 40px;
   font-size: 40px;
-  line-height: 54px;
   color: #000000;
+  position: relative;
+}
+
+.page-main__product-a-active::after {
+  content: "";
+  position: absolute;
   border-right: 2px solid #000000;
+  height: 54px;
+  top: -8px;
+  right: -21px;
 }
 
 .page-main__new {
@@ -434,11 +439,15 @@
   margin-right: 30px;
   margin-bottom: 37px;
   height: 289px;
+  width: 270px;
   
 }
 
 .page-main__new-item-title {
+  display: flex;
+  align-items: center;
   background-color: #F9FDFF;
+  box-shadow: none;
 }
 
 .page-main__new-list-title {
@@ -450,6 +459,18 @@
   letter-spacing: 0.05em;
   color: #303032;
   text-transform: uppercase;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.page-main__new-list-title::before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 0px;
+  width: 90px;
+  border-bottom: 4px solid #303032;
 }
 
 .page-main__new-item-first {
