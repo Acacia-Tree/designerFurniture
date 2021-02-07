@@ -686,6 +686,17 @@
   margin-bottom: 17px;
 }
 
+.page-main__review-button-prev:hover, 
+.page-main__review-button-prev:focus {
+  background-color: rgba(0, 0, 0, 0.0099);
+  border-radius: 100px;
+}
+
+.page-main__review-button-prev:active {
+  background-color: rgba(0, 0, 0, 0.005);
+  border-radius: 100px;
+}
+
 .page-main__review-button-next {
   order: 3;
   background-image: url("../img/arrow-right.svg");
@@ -694,6 +705,17 @@
   width: 76px;
   margin-left: 26.5px;
   margin-bottom: 17px;
+}
+
+.page-main__review-button-next:hover, 
+.page-main__review-button-next:focus {
+  background-color: rgba(0, 0, 0, 0.0099);
+  border-radius: 100px;
+}
+
+.page-main__review-button-next:active {
+  background-color: rgba(0, 0, 0, 0.005);
+  border-radius: 100px;
 }
 
 .page-main__review-slider-pagination {
