@@ -591,6 +591,8 @@
 
 .page-main__review {
   display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 102px;
   padding-left: 20px;
   padding-right: 20px;
@@ -606,7 +608,7 @@
 
 .page-main__review-slider {
   display: flex;
-  width: 100%;
+  max-width: 653px;
   height: 100%;
   flex: 1;
   overflow-x: auto;
@@ -626,9 +628,8 @@
 .page-main__review-slide {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   flex-shrink: 0;
-  height: 100%;
+  min-height: 245px;
   width: 100%;
   scroll-snap-align: start;
 }
@@ -636,6 +637,7 @@
 .page-main__review-wrap-image {
   display: flex;
   justify-content: center;
+  margin-bottom: 25px;
 
 }
 
@@ -655,6 +657,7 @@
   line-height: 27,78px;
   text-align: center;
   color: #444348;
+  margin-bottom: 20px;
 }
 
 .page-main__review-author-status {
@@ -670,14 +673,27 @@
   line-height: 24.7px;
   text-align: center;
   color: #444348;
+  margin: 0;
 }
 
 .page-main__review-button-prev {
   order: 1;
+  background-image: url("../img/arrow-left.svg");
+  background-repeat: no-repeat;
+  height: 76px;
+  width: 76px;
+  margin-right: 26.5px;
+  margin-bottom: 17px;
 }
 
 .page-main__review-button-next {
   order: 3;
+  background-image: url("../img/arrow-right.svg");
+  background-repeat: no-repeat;
+  height: 76px;
+  width: 76px;
+  margin-left: 26.5px;
+  margin-bottom: 17px;
 }
 
 .page-main__review-slider-pagination {
