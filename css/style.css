@@ -746,11 +746,13 @@
 .page-main__sale-tabs {
   display: flex;
   margin: 0;
+  margin-bottom: 25px;
   padding: 0;
   list-style: none;
 }
 
 .page-main__sale-tab {
+  margin-right: 48px;
   
 }
 
@@ -773,6 +775,7 @@
 }
 
 .page-main__sale-tabs-contents {
+  height: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -788,33 +791,68 @@
 
 .page-main__sale-content-list {
   display: flex;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .page-main__sale-content-li {
+  flex: 1 1 0px;
+  max-width: 209px;
+  /*min-height: 400px;*/
+  height: 100%;
+
+  background: #FFFFFF;
+  margin-right: 10px;
 
 }
 
 .page-main__sale-content-product {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
 
+}
+
+.page-main__sale-content-product_active {
+  
 }
 
 .page-main__sale-product-link {
   text-decoration: none;
 }
 
+.page-main__sale-product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+  /*max-height: 355px;
+  height: 100%;*/
+  height: 355px;
+}
+
+.page-main__sale-info-text {
+  align-self: center;
+}
+
 .page-main__sale-product-name {
+  display: block;
+  height: 50px;
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
   color: #000000;
+  margin: 0;
+  margin-top: 26px;
 }
 
 .page-main__sale-product-price {
-  
+  margin: 0;
 }
 
 .page-main__sale-price-new {
@@ -823,6 +861,7 @@
   font-size: 28px;
   line-height: 38px;
   color: #303032;
+  margin-right: 11px;
 }
 
 .page-main__sale-price-old {
@@ -835,12 +874,23 @@
 }
 
 .page-main__sale-product-button {
+  max-width: 209px;
+  /*min-height: 22px;
+  max-height: 58px;
+  height: 14.5%;*/
+  height: 58px;
+  width: 100%;
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 16px;
   letter-spacing: 0.13em;
   line-height: 22px;
   text-transform: uppercase;
   color: #FFFFFF;
+  background: white;
+  border: none;
+}
+
+.page-main__sale-content-product_active .page-main__sale-product-button {
   background: #303032;
 }
 
