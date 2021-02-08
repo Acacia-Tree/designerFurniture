@@ -731,6 +731,20 @@
   margin: 0 auto;
   max-width: 1220px;
   min-width: 320px;
+  position: relative;
+}
+
+.page-main__sale::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 89%;
+  width: 200%;
+  box-sizing: border-box;
+  top: 0;
+  right: 44%;
+  background-color: #fceae8;
+  z-index: -1;
 }
 
 .page-main__sale-title {
@@ -741,6 +755,8 @@
   letter-spacing: 0.05em;
   color: #303032;
   text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 48px;
 }
 
 .page-main__sale-tabs {
@@ -759,13 +775,17 @@
 .page-main__sale-tab-a {
   font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   line-height: 25px;
   /* identical to box height */
   text-align: center;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.4);
+}
+
+.page-main__sale-tab-a:hover {
+  color: #000000;
 }
 
 .page-main__sale-tab_active {
@@ -808,16 +828,18 @@
 
 }
 
+.page-main__sale-content-li:hover,
+.page-main__sale-content-li:focus,
+.page-main__sale-content-li:active {
+  border-top: solid 5px #303032;
+}
+
 .page-main__sale-content-product {
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: flex-start;
 
-}
-
-.page-main__sale-content-product_active {
-  
 }
 
 .page-main__sale-product-link {
@@ -875,9 +897,6 @@
 
 .page-main__sale-product-button {
   max-width: 209px;
-  /*min-height: 22px;
-  max-height: 58px;
-  height: 14.5%;*/
   height: 58px;
   width: 100%;
   font-family: "Open Sans", "Arial", sans-serif;
@@ -888,10 +907,25 @@
   color: #FFFFFF;
   background: white;
   border: none;
+  cursor: pointer;
 }
 
-.page-main__sale-content-product_active .page-main__sale-product-button {
+.page-main__sale-content-li:hover .page-main__sale-product-button,
+.page-main__sale-content-li:focus .page-main__sale-product-button,
+.page-main__sale-content-li:active .page-main__sale-product-button {
   background: #303032;
+}
+
+.page-main__sale-product-button:hover {
+  opacity: 80%;
+}
+
+.page-main__sale-product-button:focus {
+  outline: 0;
+}
+
+.page-main__sale-product-button:active {
+  opacity: 60%;
 }
 
 .page-main__sale-wrap-img {
