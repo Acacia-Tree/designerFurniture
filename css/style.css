@@ -739,7 +739,7 @@
   content: "";
   display: block;
   position: absolute;
-  height: 89%;
+  height: 85.5%;
   width: 200%;
   box-sizing: border-box;
   top: 0;
@@ -919,7 +919,8 @@
   line-height: 22px;
   text-transform: uppercase;
   color: #FFFFFF;
-  background: white;
+  background: #F9FDFF;;
+
   border: none;
   cursor: pointer;
 }
