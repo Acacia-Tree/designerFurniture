@@ -705,6 +705,7 @@
   width: 76px;
   margin-left: 26.5px;
   margin-bottom: 17px;
+
 }
 
 .page-main__review-button-next:hover, 
@@ -802,11 +803,24 @@
 }
 
 .page-main__sale-tab-content {
-
+  display: none;
 }
 
 .page-main__sale-tab-content_active {
+  display: initial;
+}
 
+.page-main__sale-tab-empty {
+  display: block;
+  height: 50px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  margin: 0;
+  margin-top: 26px;
+  margin-left: 10px;
 }
 
 .page-main__sale-content-list {
@@ -913,7 +927,7 @@
 .page-main__sale-content-li:hover .page-main__sale-product-button,
 .page-main__sale-content-li:focus .page-main__sale-product-button,
 .page-main__sale-content-li:active .page-main__sale-product-button {
-  background: #303032;
+  background-color: #303032;
 }
 
 .page-main__sale-product-button:hover {
