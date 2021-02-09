@@ -684,6 +684,7 @@
   width: 76px;
   margin-right: 26.5px;
   margin-bottom: 17px;
+  font-size: 0px;
 }
 
 .page-main__review-button-prev:hover, 
@@ -705,6 +706,7 @@
   width: 76px;
   margin-left: 26.5px;
   margin-bottom: 17px;
+  font-size: 0px;
 
 }
 
